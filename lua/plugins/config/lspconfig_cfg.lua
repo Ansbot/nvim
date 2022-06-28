@@ -154,7 +154,7 @@ require("nvim-lsp-installer").setup({
 -- `:LspInstall`
 -- rust-analyzer is set up by plugin "rust-tools.nvim", *DONT* configured it manually here
 local servers = {
-  "sumneko_lua",
+  "sumneko_lua", "gopls",
 }
 
 if have_custom and custom.lspconfig and custom.lspconfig.servers then
